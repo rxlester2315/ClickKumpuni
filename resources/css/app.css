@@ -1,3 +1,12 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+
+@layer base {
+  /* Your custom base styles (like font-family or h1 tags) go here */
+  h1 {
+    @apply text-2xl font-bold;
+  }
+}
+
+@layer components {
+  /* Your custom button classes etc. go here */
+}
